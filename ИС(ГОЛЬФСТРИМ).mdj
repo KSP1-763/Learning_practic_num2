@@ -6616,7 +6616,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 202,
+									"left": 206,
 									"top": 1113,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -6637,8 +6637,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 217,
-									"top": 1112,
+									"left": 221,
+									"top": 1113,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -6658,7 +6658,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 173,
+									"left": 177,
 									"top": 1114,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -6677,7 +6677,7 @@
 								"$ref": "AAAAAAGhmtxQz+tUjj0="
 							},
 							"lineStyle": 1,
-							"points": "263:1050;184:1040;192:1200;703:1212",
+							"points": "263:1050;192:1040;192:1200;703:1212",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGhmxdspvw37rc="
@@ -15218,7 +15218,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -16,
+											"left": 525,
+											"top": 77,
+											"width": 210.21533203125,
 											"height": 13
 										},
 										{
@@ -15228,9 +15230,9 @@
 												"$ref": "AAAAAAGhmzpwdcGqtYU="
 											},
 											"font": "Arial;13;1",
-											"left": 549,
-											"top": 103,
-											"width": 92.18701171875,
+											"left": 533,
+											"top": 87,
+											"width": 210.21533203125,
 											"height": 13,
 											"text": "Пользователь"
 										},
@@ -15242,7 +15244,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -16,
+											"left": -48,
+											"top": -32,
 											"width": 80.9072265625,
 											"height": 13,
 											"text": "(from Model2)"
@@ -15255,15 +15258,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -16,
+											"left": -48,
+											"top": -32,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 544,
-									"top": 96,
-									"width": 102.18701171875,
+									"left": 528,
+									"top": 80,
+									"width": 220.21533203125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhmzpwdcGr9Rg="
@@ -15298,11 +15302,11 @@
 												"$ref": "AAAAAAGhmzsZXsIOx+Q="
 											},
 											"font": "Arial;13;0",
-											"left": 549,
-											"top": 126,
-											"width": 92.18701171875,
+											"left": 533,
+											"top": 110,
+											"width": 210.21533203125,
 											"height": 13,
-											"text": "+ID",
+											"text": "-ID: Int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -15315,11 +15319,11 @@
 												"$ref": "AAAAAAGhmzs8jsIWlzY="
 											},
 											"font": "Arial;13;0",
-											"left": 549,
-											"top": 141,
-											"width": 92.18701171875,
+											"left": 533,
+											"top": 125,
+											"width": 210.21533203125,
 											"height": 13,
-											"text": "+Attribute1",
+											"text": "-Логин: Varchar",
 											"horizontalAlignment": 0
 										},
 										{
@@ -15332,11 +15336,11 @@
 												"$ref": "AAAAAAGhmzs/xsIc6I0="
 											},
 											"font": "Arial;13;0",
-											"left": 549,
-											"top": 156,
-											"width": 92.18701171875,
+											"left": 533,
+											"top": 140,
+											"width": 210.21533203125,
 											"height": 13,
-											"text": "+Attribute2",
+											"text": "-Пароль: Varchar",
 											"horizontalAlignment": 0
 										},
 										{
@@ -15349,11 +15353,11 @@
 												"$ref": "AAAAAAGhmztGbsIi60k="
 											},
 											"font": "Arial;13;0",
-											"left": 549,
-											"top": 171,
-											"width": 92.18701171875,
+											"left": 533,
+											"top": 155,
+											"width": 210.21533203125,
 											"height": 13,
-											"text": "+Attribute3",
+											"text": "-ФИО: Varchar(150)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -15366,11 +15370,11 @@
 												"$ref": "AAAAAAGhmztNjsIosD0="
 											},
 											"font": "Arial;13;0",
-											"left": 549,
-											"top": 186,
-											"width": 92.18701171875,
+											"left": 533,
+											"top": 170,
+											"width": 210.21533203125,
 											"height": 13,
-											"text": "+Attribute4",
+											"text": "-Должность: Должность",
 											"horizontalAlignment": 0
 										},
 										{
@@ -15383,11 +15387,11 @@
 												"$ref": "AAAAAAGhmztTfsIuSMA="
 											},
 											"font": "Arial;13;0",
-											"left": 549,
-											"top": 201,
-											"width": 92.18701171875,
+											"left": 533,
+											"top": 185,
+											"width": 210.21533203125,
 											"height": 13,
-											"text": "+Attribute5",
+											"text": "-Номер телефона: Varchar(12)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -15399,10 +15403,11 @@
 											"model": {
 												"$ref": "AAAAAAGhmztnT8I0XuM="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
-											"left": 549,
-											"top": 216,
-											"width": 92.18701171875,
+											"left": 517,
+											"top": 184,
+											"width": 110.97607421875,
 											"height": 13,
 											"text": "+Attribute6",
 											"horizontalAlignment": 0
@@ -15416,20 +15421,21 @@
 											"model": {
 												"$ref": "AAAAAAGhmztvvsI69So="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
-											"left": 549,
-											"top": 231,
-											"width": 92.18701171875,
+											"left": 517,
+											"top": 199,
+											"width": 110.97607421875,
 											"height": 13,
 											"text": "+Attribute7",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 544,
-									"top": 121,
-									"width": 102.18701171875,
-									"height": 128
+									"left": 528,
+									"top": 105,
+									"width": 220.21533203125,
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -15440,11 +15446,81 @@
 									"model": {
 										"$ref": "AAAAAAGhmzpwdcGnoy4="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGhoDK5IFyOy7s=",
+											"_parent": {
+												"$ref": "AAAAAAGhmzpwdcGwMLw="
+											},
+											"model": {
+												"$ref": "AAAAAAGhoDK5GVyLM2w="
+											},
+											"font": "Arial;13;0",
+											"left": 533,
+											"top": 208,
+											"width": 210.21533203125,
+											"height": 13,
+											"text": "+Зарегистрироваться:void()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGhoDK9LFyUzmA=",
+											"_parent": {
+												"$ref": "AAAAAAGhmzpwdcGwMLw="
+											},
+											"model": {
+												"$ref": "AAAAAAGhoDK9KVyRuDM="
+											},
+											"font": "Arial;13;0",
+											"left": 533,
+											"top": 223,
+											"width": 210.21533203125,
+											"height": 13,
+											"text": "+Авторизироваться:void()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGhoDLAbFya20M=",
+											"_parent": {
+												"$ref": "AAAAAAGhmzpwdcGwMLw="
+											},
+											"model": {
+												"$ref": "AAAAAAGhoDLAaVyXqag="
+											},
+											"font": "Arial;13;0",
+											"left": 533,
+											"top": 238,
+											"width": 210.21533203125,
+											"height": 13,
+											"text": "+Добавить пользователя:void()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGhoDOIhlykja4=",
+											"_parent": {
+												"$ref": "AAAAAAGhmzpwdcGwMLw="
+											},
+											"model": {
+												"$ref": "AAAAAAGhoDOIg1yhtHw="
+											},
+											"font": "Arial;13;0",
+											"left": 533,
+											"top": 253,
+											"width": 210.21533203125,
+											"height": 13,
+											"text": "+Удалить пользователя:void()",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
-									"left": 544,
-									"top": 249,
-									"width": 102.18701171875,
-									"height": 10
+									"left": 528,
+									"top": 203,
+									"width": 220.21533203125,
+									"height": 68
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -15457,7 +15533,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -8,
+									"left": -24,
+									"top": -16,
 									"width": 10,
 									"height": 10
 								},
@@ -15472,17 +15549,18 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -8,
+									"left": -24,
+									"top": -16,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 544,
-							"top": 96,
-							"width": 102.18701171875,
-							"height": 178,
+							"left": 528,
+							"top": 80,
+							"width": 220.21533203125,
+							"height": 191,
 							"nameCompartment": {
 								"$ref": "AAAAAAGhmzpwdcGqtYU="
 							},
@@ -15555,7 +15633,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGhmzpwdcGnoy4="
 							},
-							"name": "ID"
+							"name": "ID",
+							"visibility": "private",
+							"type": "Int"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -15563,8 +15643,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGhmzpwdcGnoy4="
 							},
-							"name": "Attribute1",
-							"type": ""
+							"name": "Логин",
+							"visibility": "private",
+							"type": "Varchar"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -15572,8 +15653,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGhmzpwdcGnoy4="
 							},
-							"name": "Attribute2",
-							"type": ""
+							"name": "Пароль",
+							"visibility": "private",
+							"type": "Varchar"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -15581,8 +15663,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGhmzpwdcGnoy4="
 							},
-							"name": "Attribute3",
-							"type": ""
+							"name": "ФИО",
+							"visibility": "private",
+							"type": "Varchar(150)"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -15590,8 +15673,11 @@
 							"_parent": {
 								"$ref": "AAAAAAGhmzpwdcGnoy4="
 							},
-							"name": "Attribute4",
-							"type": ""
+							"name": "Должность",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAGhmzjya8Ed5yQ="
+							}
 						},
 						{
 							"_type": "UMLAttribute",
@@ -15599,8 +15685,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGhmzpwdcGnoy4="
 							},
-							"name": "Attribute5",
-							"type": ""
+							"name": "Номер телефона",
+							"visibility": "private",
+							"type": "Varchar(12)"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -15619,6 +15706,40 @@
 							},
 							"name": "Attribute7",
 							"type": ""
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGhoDK5GVyLM2w=",
+							"_parent": {
+								"$ref": "AAAAAAGhmzpwdcGnoy4="
+							},
+							"name": "Зарегистрироваться:void"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGhoDK9KVyRuDM=",
+							"_parent": {
+								"$ref": "AAAAAAGhmzpwdcGnoy4="
+							},
+							"name": "Авторизироваться:void"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGhoDLAaVyXqag=",
+							"_parent": {
+								"$ref": "AAAAAAGhmzpwdcGnoy4="
+							},
+							"name": "Добавить пользователя:void"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGhoDOIg1yhtHw=",
+							"_parent": {
+								"$ref": "AAAAAAGhmzpwdcGnoy4="
+							},
+							"name": "Удалить пользователя:void"
 						}
 					]
 				}
